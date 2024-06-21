@@ -1,0 +1,33 @@
+*{
+    font-family: "Playwrite NZ", cursive;
+}
+body{
+    background-color: #E2F3F4;
+}
+h1{
+    text-align: center;
+    color: #1C8394;
+}
+.container{
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px;
+}
+.task{
+    text-align: center;
+    background-color: #2EF0B8;
+    color: #FF5A33;
+    border-radius: 5px;
+}
+@media (max-width: 500px){
+    .container{
+        width: 80%;
+    }
+}
+
+#form {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
